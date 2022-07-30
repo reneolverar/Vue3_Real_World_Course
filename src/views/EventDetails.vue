@@ -9,6 +9,7 @@
 <script>
 import EventService from '@/services/EventService.js'
 export default {
+  name: 'EventDetails',
   props: ['id'],
   data() {
     return {
