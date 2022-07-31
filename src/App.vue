@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link :to="{ name: 'EventList' }">Events</router-link> |
+      <router-link :to="{ name: 'CreateEvent' }">Create Event</router-link> |
       <router-link :to="{ name: 'AboutView' }">About</router-link>
     </div>
   </div>
